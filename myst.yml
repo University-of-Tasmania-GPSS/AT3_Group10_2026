@@ -1,0 +1,22 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 2d5360e1-a2c5-4304-8a47-91d798cd8a9c
+  title: KGG375 AT3
+  authors: [Shaun Knight, Kalvin Pitt]
+
+  toc:
+    - file: index.md
+
+    - title: project
+      children:
+        - file: methods.md
+        - file: results.md
+        - file: discussion.md
+        - file: conclusion.md
+
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
