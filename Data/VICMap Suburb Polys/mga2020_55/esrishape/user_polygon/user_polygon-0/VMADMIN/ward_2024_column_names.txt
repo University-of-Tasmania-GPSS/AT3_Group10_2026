@@ -1,0 +1,18 @@
+﻿The column names in a Shape file are limited to 10 characters
+This lists the short column name and the original column name in the database table
+-----------------------------------------------------------------------------------------------------
+
+EFFECTIVE_ = EFFECTIVE_TO
+EFFECTIVE_ = EFFECTIVE_FROM
+PFI = PFI
+MEMBERS = MEMBERS
+GAZETTAL_D = GAZETTAL_DATE
+LAST_REVIE = LAST_REVIEWED_DATE
+WARD_LABEL = WARD_LABEL
+UFI = UFI
+UFI_CREATE = UFI_CREATED
+WARD_NUM = WARD_NUM
+LGA_CODE = LGA_CODE
+WARD_NAME = WARD_NAME
+WARD_TYPE = WARD_TYPE
+LGA_NAME = LGA_NAME

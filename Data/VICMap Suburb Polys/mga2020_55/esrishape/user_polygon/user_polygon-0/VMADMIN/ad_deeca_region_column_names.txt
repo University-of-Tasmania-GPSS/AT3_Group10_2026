@@ -1,0 +1,8 @@
+﻿The column names in a Shape file are limited to 10 characters
+This lists the short column name and the original column name in the database table
+-----------------------------------------------------------------------------------------------------
+
+DEECA_REGI = DEECA_REGION_CODE
+CREATE_DAT = CREATE_DATE_UFI
+DEECA_REGI = DEECA_REGION
+UFI = UFI
