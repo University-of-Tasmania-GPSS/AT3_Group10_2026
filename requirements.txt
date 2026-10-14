@@ -1,0 +1,9 @@
+jupyter-book==2.1.7
+geopandas>=1.0
+pandas>=2.2
+numpy
+scipy>=1.11
+matplotlib
+libpysal>=4.10
+esda>=2.6
+ipykernel

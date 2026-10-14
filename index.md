@@ -1,26 +1,26 @@
-# Index
+# Patterns of Theft in Melbourne
 
-I am a book about ... something! Wikipedia has [information about books](wiki:book): hover over the link for more information.
+KGG375 Geospatial Data Analytics, October 2026
 
-% An admonition containing a note
-:::{note}
-Books are usually written on paper ... But Jupyter Book can create _websites_!
+**Where does recorded theft cluster, and how does it relate to household income?**
+
+| Study sample | Recorded theft offences | Reporting period |
+| :---: | :---: | :---: |
+| **446 suburbs** | **113,194** | **Year ending March 2021** |
+
+We map theft rates, test whether similar rates occur near each other, and compare rates with median household income.
+
+:::{figure} figures/study_area.png
+:label: study-area
+
+Blue: retained suburbs. Grey: areas outside the analysis sample. Sources: Vicmap Administrative, ABS and Crime Statistics Agency.
 :::
 
-If you sold 100 books at \$10 per book, you'd have \$1000 dollars according to [](#eq:book). If instead you publish your Jupyter Book to the web for free, you'd have \$0 dollars!
+:::{dropdown} Study area and reporting period
 
-% An arbitrary math equation
-:::{math}
-:name: eq:book
+The study area uses 31 Melbourne metropolitan councils. It differs from the ABS Greater Melbourne statistical boundary. A suburb is selected when its representative point falls within the selected councils; its full polygon is retained.
 
-x \times y = z
-:::
+The crime period is 1 April 2020 to 31 March 2021, chosen to be close to the 2021 Census reference year. It was affected by COVID-19 restrictions and does not represent current crime conditions.
 
-Sometimes when reading it is helpful to foster a _tranquil_ environment. The image in [](#fig:mountains) would be a perfect spot!
-
-% A figure of a photograph of some mountains, followed by a caption
-:::{figure} https://github.com/rowanc1/pics/blob/main/mountains.png?raw=true
-:label: fig:mountains
-
-A photograph of some beautiful mountains to look at whilst reading.
+The full analysis notebook and results tables are available from the download menu.
 :::

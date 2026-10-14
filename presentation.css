@@ -1,0 +1,77 @@
+/* Keep the book dark, including browsers that prefer light mode. */
+:root, html.light, html.dark {
+  color-scheme: dark;
+  --myst-color-link: #60a5fa;
+  --myst-color-link-hover: #93c5fd;
+  --myst-color-link-underline: #3b82f6;
+  --myst-color-active: #60a5fa;
+  --myst-color-active-bg: rgba(59, 130, 246, .2);
+  --myst-color-active-surface: #1e293b;
+  --myst-color-focus-ring: #60a5fa;
+  --myst-color-focus-outline: #60a5fa;
+  --myst-color-accent-text: #dbeafe;
+  --myst-color-accent-surface: #1e3a8a4d;
+  --myst-color-accent-surface-border: #1e40af;
+  --myst-color-accent-surface-text: #eff6ff;
+  --myst-color-bg: #1c1917;
+  --myst-color-bg-secondary: #292524;
+  --myst-color-surface: #1e293b;
+  --myst-color-surface-hover: #334155;
+  --myst-color-text: #fff;
+  --myst-color-text-secondary: #d1d5db;
+  --myst-color-text-tertiary: #d1d5db;
+  --myst-color-prose-body: #d6d3d1;
+  --myst-color-border: #4b5563;
+  --myst-color-border-strong: #6b7280;
+  --myst-color-inverse-bg: #fff;
+  --myst-color-inverse-text: #000;
+  --myst-color-code: #f472b6;
+  --myst-color-kbd-shadow: hsla(0, 0%, 100%, .1);
+  --myst-color-info-bg: #0f172a;
+  --myst-color-info-text: #60a5fa;
+  --myst-color-success: #22c55e;
+  --myst-color-success-bg: #0f172a;
+  --myst-color-success-text: #4ade80;
+  --myst-color-warning: #f59e0b;
+  --myst-color-warning-bg: #0f172a;
+  --myst-color-warning-text: #fbbf24;
+  --myst-color-danger: #ef4444;
+  --myst-color-danger-bg: #0f172a;
+  --myst-color-danger-text: #f87171;
+  --myst-color-error: #f87171;
+  --myst-color-error-bg: #0f172a;
+  --myst-color-error-text: #fca5a5;
+  --myst-color-theorem-bg: #0f172a;
+  --myst-color-theorem-text: #c084fc;
+  --myst-color-example-bg: #0f172a;
+  --myst-color-example-text: #fb923c;
+  --myst-color-proof-bg: #0f172a;
+  --myst-color-proof-text: #9ca3af;
+}
+
+/* Remove branding and the light/dark button. */
+.myst-made-with-myst,
+button[aria-label="Toggle theme between light and dark mode"] {
+  display: none !important;
+}
+
+.article {
+  --tw-prose-body: var(--tw-prose-invert-body);
+  --tw-prose-headings: var(--tw-prose-invert-headings);
+  --tw-prose-lead: var(--tw-prose-invert-lead);
+  --tw-prose-links: var(--tw-prose-invert-links);
+  --tw-prose-bold: var(--tw-prose-invert-bold);
+  --tw-prose-counters: var(--tw-prose-invert-counters);
+  --tw-prose-bullets: var(--tw-prose-invert-bullets);
+  --tw-prose-hr: var(--tw-prose-invert-hr);
+  --tw-prose-quotes: var(--tw-prose-invert-quotes);
+  --tw-prose-quote-borders: var(--tw-prose-invert-quote-borders);
+  --tw-prose-captions: var(--tw-prose-invert-captions);
+  --tw-prose-kbd: var(--tw-prose-invert-kbd);
+  --tw-prose-kbd-shadows: var(--tw-prose-invert-kbd-shadows);
+  --tw-prose-code: var(--tw-prose-invert-code);
+  --tw-prose-pre-code: var(--tw-prose-invert-pre-code);
+  --tw-prose-pre-bg: var(--tw-prose-invert-pre-bg);
+  --tw-prose-th-borders: var(--tw-prose-invert-th-borders);
+  --tw-prose-td-borders: var(--tw-prose-invert-td-borders);
+}

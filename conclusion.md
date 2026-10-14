@@ -1,26 +1,22 @@
-# Conclusion
+# Conclusions
 
-I am a book about ... something! Wikipedia has [information about books](wiki:book): hover over the link for more information.
+1. **Theft rates vary across the study area.** Population-adjusted rates help compare the retained suburbs.
+2. **Similar rates cluster geographically.** Global Moran's I is 0.508, the local analysis identifies 27 high-high suburbs.
+3. **Income has a weak negative association with theft rates.** Spearman rho is -0.257, income alone does not explain the pattern.
 
-% An admonition containing a note
-:::{note}
-Books are usually written on paper ... But Jupyter Book can create _websites_!
-:::
+## What to keep in mind
 
-If you sold 100 books at \$10 per book, you'd have \$1000 dollars according to [](#eq:book). If instead you publish your Jupyter Book to the web for free, you'd have \$0 dollars!
+- Resident population excludes many workers and visitors.
+- Census and Vicmap boundaries may differ, and some suburbs are excluded.
+- Recorded offences depend on reporting and policing, the 2021 period was affected by COVID-19 restrictions.
 
-% An arbitrary math equation
-:::{math}
-:name: eq:book
+**The results describe area-level patterns and provide a starting point for further investigation.**
 
-x \times y = z
-:::
+:::{dropdown} Further work and interpretation limits
 
-Sometimes when reading it is helpful to foster a _tranquil_ environment. The image in [](#fig:mountains) would be a perfect spot!
+A larger study could compare several years and include employment or daytime population. Spatial regression could examine income alongside other factors while accounting for neighbouring suburbs.
 
-% A figure of a photograph of some mountains, followed by a caption
-:::{figure} https://github.com/rowanc1/pics/blob/main/mountains.png?raw=true
-:label: fig:mountains
+The population cutoff and four-neighbour definition are practical choices. They were not optimised, and local clusters may change under different choices. A suburb crossing the study-area edge may have a partial offence count compared with its full Census population.
 
-A photograph of some beautiful mountains to look at whilst reading.
+The results do not establish causation or measure an individual resident's risk. Data sources and references are in the Methods page.
 :::

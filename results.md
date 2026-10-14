@@ -1,26 +1,35 @@
-# Results
+# Where are theft rates higher?
 
-I am a book about ... something! Wikipedia has [information about books](wiki:book): hover over the link for more information.
+| Median suburb rate | Highest 5% threshold | Suburbs above the threshold |
+| :---: | :---: | :---: |
+| **16.29 per 1,000** | **51.75 per 1,000** | **23** |
 
-% An admonition containing a note
-:::{note}
-Books are usually written on paper ... But Jupyter Book can create _websites_!
+Rates vary considerably across Melbourne. Darker colours show higher rates, the logarithmic colour scale keeps differences visible across a wide range.
+
+:::{figure} figures/theft_rates.png
+:label: theft-rates
+
+Recorded theft per 1,000 residents, year ending March 2021. Grey areas are excluded. Sources: Crime Statistics Agency, ABS and Vicmap.
 :::
 
-If you sold 100 books at \$10 per book, you'd have \$1000 dollars according to [](#eq:book). If instead you publish your Jupyter Book to the web for free, you'd have \$0 dollars!
+**A high rate alone does not show that a suburb forms a spatial cluster.**
 
-% An arbitrary math equation
-:::{math}
-:name: eq:book
+:::{dropdown} Highest-rate suburbs and supporting figures
 
-x \times y = z
-:::
+| Suburb | Population | Theft offences | Rate per 1,000 |
+| --- | ---: | ---: | ---: |
+| Campbellfield | 4,977 | 482 | 96.85 |
+| Collingwood | 9,179 | 801 | 87.26 |
+| Melbourne | 54,941 | 4,678 | 85.15 |
+| Ravenhall | 2,295 | 193 | 84.10 |
+| Portsea | 787 | 66 | 83.86 |
+| Burnley | 794 | 64 | 80.60 |
+| Fitzroy | 10,431 | 831 | 79.67 |
+| Tullamarine | 6,733 | 528 | 78.42 |
 
-Sometimes when reading it is helpful to foster a _tranquil_ environment. The image in [](#fig:mountains) would be a perfect spot!
+The combined sample rate is 23.51 per 1,000, calculated from total offences divided by total population. It differs from the median suburb rate.
 
-% A figure of a photograph of some mountains, followed by a caption
-:::{figure} https://github.com/rowanc1/pics/blob/main/mountains.png?raw=true
-:label: fig:mountains
+Population comparison gives Pearson r = 0.125, with conventional p = 0.008. This is a weak positive association and is treated as exploratory because nearby suburbs may not be independent.
 
-A photograph of some beautiful mountains to look at whilst reading.
+The percentile threshold is a descriptive comparison. It does not test whether high-rate suburbs occur together.
 :::

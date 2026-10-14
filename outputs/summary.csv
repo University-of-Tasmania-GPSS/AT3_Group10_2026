@@ -1,0 +1,11 @@
+Metric,Value
+Total suburbs,446.0
+Hotspot suburbs,23.0
+95th percentile threshold,51.75
+Population-crime correlation,0.125
+P-value,0.008
+Income Spearman correlation,-0.25656067791926723
+Conventional income p-value,3.901073823203523e-08
+Global Moran I,0.5084381436752002
+Global permutation p,0.001
+High-high suburbs,27.0
